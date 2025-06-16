@@ -5,12 +5,6 @@ This tool enhances resume summaries with AI, saves data to a database, and allow
 
 ![Screenshot](./screenshot.png)
 
----
-
-## 🚀 Live Demo
-
-🔗 [View Live Project](https://madhankumar1701.github.io/Smart-Resume-Builder/)  
-🧠 *Run `npm run build` in client/ and deploy build folder to GitHub Pages manually*
 
 ---
 
@@ -18,7 +12,6 @@ This tool enhances resume summaries with AI, saves data to a database, and allow
 
 - 🤖 AI Resume Summary Improvement (via GPT-3.5 through OpenRouter)
 - 📝 Create and edit resume with clean form UI
-- 🖨️ Export resume as PDF (with print styling)
 - 💾 Save resume to MongoDB (via Express API)
 - 💡 Stylish Tailwind CSS UI with gradients and animations
 
@@ -30,7 +23,6 @@ This tool enhances resume summaries with AI, saves data to a database, and allow
 - ⚛️ React.js (Create React App)
 - 🎨 Tailwind CSS
 - 📦 Axios
-- 🖨️ `react-to-print` (PDF Export)
 
 ### Backend
 - 🌐 Node.js + Express
@@ -48,7 +40,6 @@ This tool enhances resume summaries with AI, saves data to a database, and allow
 1. Fill in the resume form with your name, email, skills, and summary
 2. Click 🤖 **AI Suggestion** → GPT-3.5 enhances your summary professionally
 3. Click 💾 **Save** → Data is stored in MongoDB Atlas
-4. Click 🖨️ **Export PDF** → Resume is printed or saved with styling
 
 ---
 
