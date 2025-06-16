@@ -9,7 +9,7 @@ This tool enhances resume summaries with AI, saves data to a database, and allow
 
 ## 🚀 Live Demo
 
-🔗 [View Live Project](https://yourusername.github.io/smart-resume-builder/)  
+🔗 [View Live Project](https://madhankumar1701.github.io/Smart-Resume-Builder/)  
 🧠 *Run `npm run build` in client/ and deploy build folder to GitHub Pages manually*
 
 ---
