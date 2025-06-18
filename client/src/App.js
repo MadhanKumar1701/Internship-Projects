@@ -1,7 +1,12 @@
+import React from "react";
 import ResumeBuilder from "./ResumeBuilder";
 
 function App() {
-  return <ResumeBuilder />;
+  return (
+    <>
+      <ResumeBuilder />
+    </>
+  );
 }
 
 export default App;

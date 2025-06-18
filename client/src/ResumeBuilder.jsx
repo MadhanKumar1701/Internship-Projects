@@ -21,6 +21,10 @@ function ResumeBuilder() {
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
     documentTitle: `${form.name || "resume"}-smart-resume`,
+    onBeforePrint: () =>
+      alert("Print window is opening. Please choose 'Save as PDF'."),
+    removeAfterPrint: true,
+    suppressErrors: false,
   });
 
   const getSuggestion = async () => {
@@ -29,9 +33,14 @@ function ResumeBuilder() {
       const res = await axios.post("http://localhost:5000/suggest", {
         summary: form.summary,
       });
-      setSuggestion(res.data.suggestion);
+      if (res.data?.suggestion) {
+        setSuggestion(res.data.suggestion);
+      } else {
+        setSuggestion("❌ AI did not return suggestion. Check backend.");
+      }
     } catch (error) {
       console.error("AI Suggestion Error:", error);
+      setSuggestion("❌ AI failed — see console.");
     }
     setIsLoading(false);
   };
@@ -93,7 +102,9 @@ function ResumeBuilder() {
         </div>
 
         {isLoading ? (
-          <p className="text-center mt-4 animate-pulse text-blue-500">Thinking...</p>
+          <p className="text-center mt-4 animate-pulse text-blue-500">
+            Thinking...
+          </p>
         ) : (
           suggestion && (
             <div className="mt-4 bg-green-50 border-l-4 border-green-400 text-green-700 p-4 rounded shadow">
@@ -115,7 +126,9 @@ function ResumeBuilder() {
           </div>
           <div className="mt-4">
             <h3 className="font-semibold text-gray-800">Summary:</h3>
-            <p className="text-gray-700 whitespace-pre-line">{form.summary}</p>
+            <p className="text-gray-700 whitespace-pre-line">
+              {form.summary}
+            </p>
           </div>
         </div>
       </div>
