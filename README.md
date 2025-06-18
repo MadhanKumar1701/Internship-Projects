@@ -1,10 +1,14 @@
 # 🧠 Smart Resume Builder
 
 A full-stack, AI-powered Resume Builder built using React, Tailwind CSS, Node.js, MongoDB, and OpenRouter (GPT-3.5).  
-This tool enhances resume summaries with AI, saves data to a database, and allows exporting resumes as professional PDF files.
+This project showcases frontend skills, backend API integration, database storage, and AI-driven functionality — perfect for a **Full Stack Developer portfolio**!
 
-![Screenshot](./screenshot.png)
+---
 
+## 🚀 Live Demo
+
+🔗 [View Live Project](https://yourusername.github.io/smart-resume-builder/)  
+💻 *Run `npm run build` in `/client/` and deploy `build/` folder to GitHub Pages manually*
 
 ---
 
@@ -12,7 +16,8 @@ This tool enhances resume summaries with AI, saves data to a database, and allow
 
 - 🤖 AI Resume Summary Improvement (via GPT-3.5 through OpenRouter)
 - 📝 Create and edit resume with clean form UI
-- 💾 Save resume to MongoDB (via Express API)
+- 🖨️ Export resume as PDF (with print styling)
+- 💾 Save resume to MongoDB Atlas (via Express API)
 - 💡 Stylish Tailwind CSS UI with gradients and animations
 
 ---
@@ -20,38 +25,30 @@ This tool enhances resume summaries with AI, saves data to a database, and allow
 ## 🛠️ Tech Stack
 
 ### Frontend
-- ⚛️ React.js (Create React App)
+- ⚛️ React 18.2.0 (CRA)
 - 🎨 Tailwind CSS
 - 📦 Axios
+- 🖨️ react-to-print (PDF Export)
 
 ### Backend
 - 🌐 Node.js + Express
 - 📄 REST API for /suggest and /save
-- 🌍 MongoDB Atlas for cloud DB
+- 🌍 MongoDB Atlas (Cloud DB)
 - 🧠 OpenRouter GPT-3.5 (Free-tier AI)
 
 ---
 
+## 📸 Screenshot
+
+![Screenshot](./screenshot.png)
 
 ---
 
-## 📸 How It Works
+## 💻 How to Run Locally
 
-1. Fill in the resume form with your name, email, skills, and summary
-2. Click 🤖 **AI Suggestion** → GPT-3.5 enhances your summary professionally
-3. Click 💾 **Save** → Data is stored in MongoDB Atlas
-
----
-
-## 🧪 Local Setup
+### Backend
 
 ```bash
-# Start backend
 cd server
 npm install
 node index.js
-
-# Start frontend
-cd ../client
-npm install
-npm start
