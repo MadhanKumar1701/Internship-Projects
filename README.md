@@ -1,4 +1,22 @@
-# 🧠 Smart Resume Builder
+# 🚀 Internship Projects — ELEVATE LABS
+
+👨‍💻 Internship by: **Madhan Kumar**  
+📅 Internship Domain: Full Stack Web Development  
+🏢 Company: ELEVATE LABS  
+🌐 GitHub: [MadhanKumar1701](https://github.com/MadhanKumar1701)  
+🔗 LinkedIn: [madhan-kumar17](https://www.linkedin.com/in/madhan-kumar17)
+
+---
+
+## 📋 Projects Included:
+
+✅ 1️⃣ Smart Resume Builder  
+✅ 2️⃣ Real-Time Chat App  
+✅ Project Reports attached in `/Reports` folder.
+
+---
+
+## 🌟 1️⃣ Smart Resume Builder
 
 A full-stack, AI-powered Resume Builder built with **React**, **Tailwind CSS**, **Node.js**, **MongoDB**, and **OpenRouter (GPT-3.5)**.  
 This project demonstrates frontend design, backend API integration, cloud database usage, and AI-driven resume enhancement — ideal for showcasing your skills as a **Full Stack Developer**!
@@ -58,3 +76,47 @@ npm start
 cd ../server
 npm install
 node index.js
+
+
+
+## 💬 2️⃣ Real-Time Chat App
+
+# 🚀 Real-Time Chat App
+
+A modern, secure, and responsive real-time chat platform — built using Node.js, Express, MongoDB, Socket.IO, and Tailwind CSS.
+
+---
+
+## 📸 Screenshots
+
+### 📝 User Registration
+
+![Registration Screenshot](images/register.png)
+
+### 💬 Chat Interface
+
+![Chat Screenshot](images/screenshot.png)
+
+---
+
+## 🚀 Features
+
+- 📝 User Registration & Login (JWT Auth)
+- 💬 Real-time messaging with Socket.IO
+- 👥 Online users list with live updates
+- 🎨 Responsive and animated UI (Tailwind CSS + Animate.css)
+- 🗄️ Chat history stored in MongoDB
+- 🔐 Secure, scalable backend with Node.js & Express
+
+---
+
+## 💻 Tech Stack
+
+- Node.js
+- Express.js
+- MongoDB
+- Socket.IO
+- Tailwind CSS
+- Animate.css
+
+---
