@@ -91,11 +91,11 @@ A modern, secure, and responsive real-time chat platform — built using Node.js
 
 ### 📝 User Registration
 
-![Registration Screenshot](images/register.png)
+![Registration Screenshot](./register.png)
 
 ### 💬 Chat Interface
 
-![Chat Screenshot](images/screenshot.png)
+![Chat Screenshot](./Screenshot.png)
 
 ---
 
