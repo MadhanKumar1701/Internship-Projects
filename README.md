@@ -77,7 +77,7 @@ cd ../server
 npm install
 node index.js
 
-
+```
 
 ## 💬 2️⃣ Real-Time Chat App
 
